@@ -1,4 +1,4 @@
-# SalesLoft
+# SalesLoft TechOps Exercise
 
 ## Flask App to call Public API deploy in EKS cluster using Docker image
 
