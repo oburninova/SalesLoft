@@ -1,6 +1,6 @@
 # SalesLoft TechOps Exercise
 
-## Flask App to call Public API deploy in EKS cluster using Docker image
+## Flask App to call Public API in EKS cluster using Docker image
 
 ## Features
 - Flask app with Public API https://tradestie.com/api/v1/apps/reddit
