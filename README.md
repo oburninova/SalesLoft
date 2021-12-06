@@ -21,7 +21,7 @@
 3. Head to the project directory and run "docker build --platform linux/amd64 -t oburninova/flask_app:v2 ."
 4. After creating image run "docker push oburninova/flask_app:v2" to push image to repo
 5. Run "docker run -p 4000:4000 oburninova/flask_app:v2*"
-6. And open http://localhost:4000/ to check API response 
+6. Open http://localhost:4000/ to check API response 
 
 ### Deploy deployment using docker image
 1. Use the ELK cluster 
