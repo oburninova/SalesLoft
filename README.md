@@ -4,7 +4,7 @@
 
 ## Features
 - Flask app with Public API https://tradestie.com/api/v1/apps/reddit
-- Dockerhum image
+- Dockerhub image
 - Kubernetes deployment manifests 
 
 ## Deployment steps
