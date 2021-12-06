@@ -24,7 +24,7 @@
 6. Open http://localhost:4000/ to check API response 
 
 ### Deploy deployment using docker image
-1. Use the ELK cluster 
+1. Use the EKS cluster on AWS
 2. Create manifest file fo deplpyment nd NodePort service using NodePort 30007
 3. Create deployment and service to run "kubectl apply -f kube.yaml" 
 4. Open the port 30007 in your worker-nodes in EKS cluster 
