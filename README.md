@@ -25,7 +25,7 @@
 
 ### Deploy deployment using docker image
 1. Use the EKS cluster on AWS
-2. Create manifest file fo deployment with one replica and NodePort service using NodePort 30007
+2. Create manifest file with deployment with one replica and NodePort service using NodePort 30007
 3. Create deployment and service to run "kubectl apply -f kube.yaml" 
 4. Open the port 30007 in your worker-nodes in EKS cluster 
 5. Run "kubect get pods -o wide" to check the private IP of EC2 of the running pod
