@@ -5,8 +5,6 @@ import requests
 app = Flask(__name__)
 
 #Create the route root for the app
-#Get => read operations
-#Post => Write In database,
 @app.route('/', methods=['GET'])
 def home():
     #create request to the target url
