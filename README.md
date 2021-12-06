@@ -10,9 +10,9 @@
 ## Deployment steps
 ### Flask app with python code 
 1. Install python3
-2. Install the dependencies run "pip3 install -r requirements.txt".
+2. Install the dependencies run "pip3 install -r requirements.txt"
 3. Change directory to /app and run "*flask run*" or "*python3 app.py*" 
-4. Head to the url shown in the logs to check API responce 
+4. Head to the url shown in the logs to check API response 
 
 
 ### Build docker image
@@ -21,7 +21,7 @@
 3. Head to the project directory and run "docker build --platform linux/amd64 -t oburninova/flask_app:v2 ."
 4. After creating image run "docker push oburninova/flask_app:v2" to push image to repo
 5. Run "docker run -p 4000:4000 oburninova/flask_app:v2*"
-6. And open http://localhost:4000/
+6. And open http://localhost:4000/ to check API response 
 
 ### Deploy deployment using docker image
 1. Use the ELK cluster 
